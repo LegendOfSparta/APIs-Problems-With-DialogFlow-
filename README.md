@@ -11,7 +11,7 @@ That example works like a charm on firebase CLI
             );
 ```
 
-While this same method on another APIs won't work
+While this same exact method on another APIs won't work
 ``` javascript
         const request = require("request");
         const urls = 'http://api.yomomma.info';
