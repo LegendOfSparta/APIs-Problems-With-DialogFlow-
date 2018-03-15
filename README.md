@@ -7,7 +7,7 @@ That example works like a charm on firebase CLI
         request.get(urls, (error, response, body) => {
             body = JSON.parse(body);
             sendResponse(
-              `Location: ${body.results[0].formatted_address} -`+`Latitude: ${body.results[0].geometry.location.lat} -`+`Longitude: ${body.results[0].geometry.location.lng} Link: https://www.google.com.eg/maps/place/`+rz+`/@${body.results[0].geometry.location.lat},${body.results[0].geometry.location.lng},14z` 
+              `Location: ${body.results[0].formatted_address}`
             );
 ```
 
